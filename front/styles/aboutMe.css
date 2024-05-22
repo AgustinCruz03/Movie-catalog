@@ -1,0 +1,36 @@
+:root{
+    --color-subtitles: #242833;
+    --color-aside: #363C48;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/e3/43/55/e343555041f0d4b4eff0279af5346a63.jpg");
+}
+
+.logoPagina{
+    width: 100px;
+}
+
+.nav-item{
+    background-color: #D9D9D9;
+}
+
+.tituloPrincipal{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+.fotoCurriculum{
+    width: 100%;
+    height: 250px;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+.backgroundAside{
+    background-color: var(--color-aside);
+}
+
+.subtitle{
+    background-color: var(--color-subtitles);
+}
