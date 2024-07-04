@@ -27,7 +27,7 @@ const traerInformacion = async () => {
   }
   catch(err){
     //si detectó un error el bloque de arriba viene a este bloqué 
-    console.log(err.message)
+    console.log(err.message);
   }
 }
 
